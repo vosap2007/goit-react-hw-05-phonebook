@@ -117,7 +117,7 @@ export default class App extends Component {
         <h2 className={styles.title}>Contacts</h2>
         
         <CSSTransition
-        in={visibleContacts.length > 1} 
+        in={true} 
         timeout={250}
         classNames='fade'
         unmountOnExit>
